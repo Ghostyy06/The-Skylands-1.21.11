@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "the_skylands",
+	"version": "${version}",
+	"name": "The Skylands",
+	"description": "Adds a Skylands dimension to minecraft 1.21.11",
+	"authors": [
+		"dtb_ghostyy"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/the-skylands/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ghostyy.TheSkylands"
+		],
+		"client": [
+			"net.ghostyy.TheSkylandsClient"
+		],
+		"fabric-datagen": [
+			"net.ghostyy.TheSkylandsDataGenerator"
+		]
+	},
+	"mixins": [
+		"the-skylands.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
