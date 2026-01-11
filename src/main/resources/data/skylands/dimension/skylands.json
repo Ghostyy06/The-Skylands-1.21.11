@@ -1,0 +1,96 @@
+{
+  "type": "skylands:skylands",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:plains",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0.2,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:lush_caves",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:old_growth_birch_forest",
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": 0.45,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "parameters": {
+            "erosion": 0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0
+          },
+          "biome": "minecraft:jungle"
+        },
+        {
+          "parameters": {
+            "erosion": 0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 0.1,
+            "humidity": -0.1,
+            "continentalness": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "erosion": 0,
+            "depth": 0,
+            "weirdness": 0,
+            "temperature": 0.8,
+            "humidity": -0.1,
+            "continentalness": 0,
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "erosion": 0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 1,
+            "humidity": 0.6,
+            "continentalness": 0
+          },
+          "biome": "minecraft:badlands"
+        }
+      ]
+    },
+    "settings": "skylands:skylands"
+  }
+}
